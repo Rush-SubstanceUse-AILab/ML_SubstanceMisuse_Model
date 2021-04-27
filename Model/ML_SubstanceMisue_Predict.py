@@ -80,8 +80,8 @@ class ProcessData:
 if __name__ == "__main__":
     PD = ProcessData()
     
-    inputDir = "/raid/SUIT/Archive/Notes_2020_CUIS/Notes_2020_24hr_IP/"
-    outputDir = "/raid/SUIT/code/ML_SubstanceMisuse/ML_SubstanceMisuse_Model/Model/"
+    inputDir = "/usr/inputdata/"
+    outputDir = "/usr/outputresult/"
     tokenizer_loc = "CUIS_tokenizer.pkl"
     model_loc = "CNN_Multilabel.h5"
     txtfilesTrain_df = PD.dffiles(inputDir)
